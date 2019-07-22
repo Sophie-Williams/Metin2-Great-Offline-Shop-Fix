@@ -26,7 +26,7 @@ if ENABLE_VALIANT:
 ## 2.) Add after this:
 		if ENABLE_VALIANT:
 			ValiantNameCheck = self.UI["nameEdit"].GetText()
-			if ValiantNameCheck.find(ValiantDictionary['CharacterList']) != -1 
+			if ValiantNameCheck.find(ValiantDictionary['CharacterList']) != -1:
 				self.PopupMessage("You crazy bitch")
 				return
 
@@ -40,7 +40,7 @@ if ENABLE_VALIANT:
 
 ## 2.) Add after this:
 		if ENABLE_VALIANT:
-			if name.find(ValiantDictionary['CharacterList']) != -1 
+			if name.find(ValiantDictionary['CharacterList']) != -1:
 				self.PopupMessage("You crazy bitch")
 				return
 
